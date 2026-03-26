@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karim Villalba - Ingeniero Informático</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1 class="brand-name">Karim Villalba</h1>
+    <h2>Ingeniero Informático</h2>
+    <p class="highlight">Especialista en desarrollo web y sistemas informáticos para empresas</p>
+    <nav>
+        <a href="#intro">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="intro" id="intro">
+    <div class="container">
+        <h2>Programación Informática</h2>
+        <p>Desarrollo de aplicaciones web, sistemas empresariales y soluciones digitales adaptadas a tus necesidades.</p>
+        <img src="{% static 'img/programacion.jpg' %}" class="intro-img">
+    </div>
+</section>
+
+<section class="banner">
+    <div class="container">
+        <img src="{% static 'img/banner_publicidad.avif' %}" class="banner-img">
+    </div>
+</section>
+
+<section class="services" id="servicios">
+    <div class="container">
+        <h2>Servicios Destacados</h2>
+        <div class="service-items">
+
+            <div class="service-item">
+                <img src="{% static 'img/web.jpg' %}" class="service-img">
+                <h3>Desarrollo Web</h3>
+                <p>Páginas web modernas y optimizadas para tu negocio.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="{% static 'img/sistema_operativo.png' %}" class="service-img">
+                <h3>Instalación de Sistema Operativo</h3>
+                <p>Windows y Linux configurados a medida.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="{% static 'img/office.webp' %}" class="service-img">
+                <h3>Instalación de Office</h3>
+                <p>Listo para uso profesional.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="{% static 'img/mantenimiento.jpg' %}" class="service-img">
+                <h3>Mantenimiento de PC</h3>
+                <p>Optimización y reparación.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="{% static 'img/sistema_empresa.jpg' %}" class="service-img">
+                <h3>Sistemas Informáticos para Empresas</h3>
+                <p>Software a medida, automatización y soluciones digitales completas.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="why-web">
+    <div class="container">
+        <h2>¿Por qué necesitas una página web?</h2>
+        <div class="why-items">
+            <div class="why-item"><h3>🌍 Más clientes</h3><p>Disponible 24/7.</p></div>
+            <div class="why-item"><h3>💼 Imagen profesional</h3><p>Genera confianza.</p></div>
+            <div class="why-item"><h3>📈 Más ingresos</h3><p>Convierte visitas en ventas.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="pro-business">
+    <div class="container">
+        <h2>Soluciones Digitales para Empresas</h2>
+        <div class="pro-items">
+            <div class="pro-item"><h3>🏢 Sistemas a medida</h3></div>
+            <div class="pro-item"><h3>⚙️ Automatización</h3></div>
+            <div class="pro-item"><h3>🔐 Seguridad</h3></div>
+            <div class="pro-item"><h3>☁️ Nube</h3></div>
+        </div>
+    </div>
+</section>
+
+<section class="location" id="ubicacion">
+    <div class="container">
+        <h2>Ubicación</h2>
+        <p>Calle Arenal Nº 70, Alcalá del Valle</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps?q=Calle+Arenal+70,+Alcalá+del+Valle&output=embed"
+                width="100%" height="400"></iframe>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>Opiniones</h2>
+        <p>"Ahora tengo más clientes gracias a mi web"</p>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h2>¿Necesitas una web?</h2>
+        <a href="#contacto" class="cta-btn">Contactar</a>
+    </div>
+</section>
+
+<section class="trust">
+    <div class="container">
+        <h2>¿Por qué elegirme?</h2>
+        <p>✔ Atención personalizada</p>
+        <p>✔ Soluciones a medida</p>
+        <p>✔ Soporte continuo</p>
+    </div>
+</section>
+
+<section class="contact" id="contacto">
+    <div class="container">
+        <h2>Contacto</h2>
+        <div class="contact-cards">
+            <div class="contact-card">
+                <a href="mailto:villalbaacevalk@gmail.com">Email</a>
+            </div>
+            <div class="contact-card">
+                <a href="https://wa.me/34622328244">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<a href="https://wa.me/34622328244" class="whatsapp-float">💬</a>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Karim Villalba</p>
+    </div>
+</footer>
+
+</body>
+</html>
